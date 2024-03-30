@@ -1,0 +1,45 @@
+.nfs*
+.DS_Store
+.idea
+*.egg-info/
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg-info/
+build/
+dist/
+wheels/
+
+# pytorch/python/numpy formats
+*.pkl
+*.ts
+model_ts*.txt
+
+# model checkpoints
+*.onnx
+*.pth
+*.pt
+
+# ipython/jupyter notebooks
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# editor settings
+.idea
+.vscode
+_darcs
+
+# demo 
+**/node_modules
+yarn.lock
