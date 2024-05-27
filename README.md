@@ -2,6 +2,8 @@
 
 This is a PyTorch implementation of our paper "Unsegment Anything by Simulating Deformation" (CVPR 2024).
 
+Paper link: [arxiv](https://arxiv.org/abs/2404.02585)
+
 ## Installation
 
 Create a conda environment for the project. The code requires `python>=3.7`, as well as `pytorch>=1.7` and `torchvision>=0.8`. Please follow the instructions [here](https://pytorch.org/get-started/locally/) to install both PyTorch and TorchVision dependencies. Installing both PyTorch and TorchVision with CUDA support is strongly recommended.
